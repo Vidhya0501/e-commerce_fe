@@ -5,9 +5,9 @@ import { ProductContextProvider } from "./context/ProductContext.jsx";
 import { UserContextProvider } from "./context/UserContext.jsx";
 import { CartContextProvider } from "./context/CartContext.jsx";
 
-// export const server = "https://ecommerce-server-gfz8.onrender.com";
 
-export const server = "http://localhost:5000";
+
+export const server = "https://e-commerce-be-349z.onrender.com";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
